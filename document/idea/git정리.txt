@@ -1,0 +1,16 @@
+test
+
+
+
+
+git pull https://github.com/kongjeongbae/final.git # 받아오는 거 / 경로에 들어가서 git pull 만 해도 됨
+
+git status : 현재 원격하고 로컬의 차이 보여줌
+
+
+git add <파일 또는 폴더>
+git add . # 변경된 거 전부 올림
+
+git commit -m “<메시지>” # add 된 파일에 메시지를 입력함.
+
+git push -u origin master # -u 는 경로 지정이라 이제는 git push 만 입력해도 됨
